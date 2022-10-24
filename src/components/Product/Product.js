@@ -1,21 +1,27 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Card, Col } from "react-bootstrap";
+import { Button, Card, CardGroup, Col } from "react-bootstrap";
 import "./Product.css";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-const Product = ({ product }) => {
-  console.log(product);
+const Product = ({ product, handleAddToCart }) => {
+  const { id, img, name, price } = product;
+
   return (
     <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural lead-in to additional content. This
-            content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <CardGroup>
+        <Card>
+          <Card.Img variant="top" src={img} />
+          <Card.Body>
+            <Card.Title>{name}</Card.Title>
+            <Card.Text className="text-danger mt-4">Price: {price}</Card.Text>
+          </Card.Body>
+          <Button onClick={() => handleAddToCart(id)} className="py-2 fs-5 text-primary" variant="light">
+            Add To Cart
+            <FontAwesomeIcon className="px-3" icon={faShoppingCart}></FontAwesomeIcon>
+          </Button>
+        </Card>
+      </CardGroup>
     </Col>
   );
 };
