@@ -1,0 +1,74 @@
+[
+  {
+    "id": "63566572846f4973b96dc96a",
+    "price": 31500,
+    "name": "Asus TUF Gaming A15 FA506ICB Ryzen 7 4800H RTX 3050 4GB Graphics 15.6 inch FHD Gaming Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/tuf-gaming-a15-fa506icb/tuf-gaming-a15-fa506icb-01-228x228.webp"
+  },
+  {
+    "id": "635665720ca23f4f121a44e6",
+    "price": 43500,
+    "name": "Toshiba Dynabook Satellite Pro C40-G-109 Celeron 5205U 14 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/toshiba/satellite-pro-c40-g-109/satellite-pro-c40-g-109-01-228x228.webp"
+  },
+  {
+    "id": "63566572481bb603406158c0",
+    "price": 32000,
+    "name": "Lenovo IdeaPad Slim 3i 15IGL Intel Celeron N4020 15.6 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-0010-228x228.jpg"
+  },
+  {
+    "id": "6356657201a7f8b5ee62477f",
+    "price": 57500,
+    "name": "Lenovo IdeaPad D330 10IGL Intel CDC N4020 10.1 inch HD Touch Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/d330/d330-1-228x228.jpg"
+  },
+  {
+    "id": "63566572536089b8979dbb05",
+    "price": 39000,
+    "name": "HP 15s-du1116TU Pentium Silver N5030 15.6 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1116tu/15s-du1116tu-01-228x228.jpg"
+  },
+  {
+    "id": "635665729f03ffb1a470d539",
+    "price": 51500,
+    "name": "Lenovo IdeaPad Slim 3i Celeron N4020 256GB SSD 15.6 inch HD Laptop with 3 Years Warranty",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/slim-3i/slim-3i-001-228x228.jpg"
+  },
+  {
+    "id": "63566572aa5a75aa913b76dd",
+    "price": 44500,
+    "name": "Asus Vivobook E410MA Celeron N4020 14 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/e410ma/e410ma-01-228x228.jpg"
+  },
+  {
+    "id": "6356572aa5a75aa913b76dd",
+    "price": 64000,
+    "name": "HP 15s-du1117TU Pentium Silver N5030 15.6 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1117tu/15s-du1117tu-001-228x228.jpg"
+  },
+  {
+    "id": "63566572a5a75aa913b76dd",
+    "price": 40500,
+    "name": "Asus Vivobook X515MA Celeron N4020 15.6 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-228x228.jpg"
+  },
+  {
+    "id": "63566572a5a75a913b76dd",
+    "price": 47500,
+    "name": "HP 15s-fq3234TU Celeron N4500 15.6 inch FHD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-fq2597tu/15s-fq2597tu-01-228x228.jpg"
+  },
+  {
+    "id": "63566572a5a75aa93b76dd",
+    "price": 43500,
+    "name": "Acer One 14 Z2-493 Ryzen 3 3250U 14 inch HD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/one-14-z2-493/one-14-z2-493-01-228x228.jpg"
+  },
+  {
+    "id": "63566572a55aa913b76dd",
+    "price": 54000,
+    "name": "Acer Aspire 3 A315-58 Core i3 11th Gen 15.6 inch FHD Laptop",
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-3-a315-58/aspire-3-a315-58-001-228x228.jpg"
+  }
+]
