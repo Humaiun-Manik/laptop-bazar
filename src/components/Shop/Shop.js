@@ -33,6 +33,16 @@ const Shop = () => {
     const product = cart[Math.floor(Math.random() * cart.length)];
     console.log(product);
   };
+  //  reset cart product
+  const resetCart = () => {
+    setCart([]);
+  };
+
+  //   remove the product from cart
+  const removeProductToCart = (id) => {
+    const restProduct = cart.filter((product) => product.id !== id);
+    setCart(restProduct);
+  };
 
   return (
     <div className="container shop">
@@ -50,7 +60,7 @@ const Shop = () => {
             <div className="cart-info" key={product.id}>
               <img src={product.img} alt="" />
               <h5 className="mx-3">{product.name.slice(0, 16)}</h5>
-              <Button className="p-0 m-0" variant="light">
+              <Button onClick={() => removeProductToCart(product.id)} className="p-0 m-0" variant="light">
                 <FontAwesomeIcon className="px-3" icon={faTrash}></FontAwesomeIcon>
               </Button>
             </div>
@@ -59,7 +69,9 @@ const Shop = () => {
             CHOOSE 1 FOR ME
           </Button>
           <br />
-          <Button variant="outline-danger">CHOOSE AGAIN</Button>
+          <Button onClick={resetCart} variant="outline-danger">
+            CHOOSE AGAIN
+          </Button>
         </Col>
       </Row>
     </div>
